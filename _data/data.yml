@@ -5,30 +5,31 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Matthew Lurtz
+    tagline: National Science Foundation Postdoctoral Fellow
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: matthew.lurtz@colostate.edu
+    phone: Don't Call Me
+    timezone: MST
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: # blog.webjeda.com #do not add http://
+    linkedin: matthew-lurtz
+    xing: # alandoe
+    github: matthewl-ecohydro
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: # '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: "https://github.com/matthewl-ecohydro/cv/blob/main/06202024_cv.pdf"
+
 
     languages:
       title: Languages
@@ -36,19 +37,16 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
-
         - idiom: Spanish
-          level: Professional
+          level: Poquito
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Hiking
           link:
 
-        - item: Snowboarding
+        - item: Tennis
           link:
 
         - item: Cooking
@@ -57,209 +55,176 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I'm just getting started...I am a lifelong student. I have experience in Bayesian statistics (STAN and Base R), geospatial analysis (R and python), and surface water modeling (HEC-RAS). As a postdoctoral scientist, I expand on my work as a doctoral student by examining groundwater-dependent ecosystems (GDE) through the lens of scale-enlightened modeling. Hypothesis testing is used to investigate how small scale GDE processes translates to larger spatial scales.
+      
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Doctor of Philosophy in Hydrologic Science and Engineering
+        university: Colorado State University (Fort Collins, CO)
+        time: Fall 2023
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Dissertation: Multiscale connections between a groundwater dependent ecosystem and socio-hydrology:
+          insight gained from numerical modeling, geospatial informatics, and Bayesian statistics.
+            - Advisor: Dr. Ryan Morrison
+      - degree: Masters of Science with Water Resource Emphasis
+        university: The University of Kansas
+        time: December 2016
+      - degree: Bachelor of Science in Civil Engineering
+        university: The University of Kansas
+        time: December 2013
+      - degree: Civil Engineering Study Abroad Program
+        university: The University of Newcastle (New South Wales, AU)
+        time: 2011
 
 experiences:
-    title: Experiences
+    title: WORK and TRAINING EXPERIENCE
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Postdoctoral Fellow
+        time: Current
+        company: National Science Foundation
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Examine issues related to scale in groundwater dependent ecosystems with Dr. Mike Ronayne (Colorado State University), Dr. Alfredo Huete (University of Technology Sydney, AU), and Dr. Balaji Rajagopalan as a Research Affiliate of the Sustainability, Energy and Environment Community at the University of Colorado, Boulder
+
+      - role: Graduate Research Assistant
+        time: 2018 - 2022
+        company: Colorado State University
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Investigate the effects of irrigation return flow on riparian evapotranspiration in the Arkansas River Valley, Colorado
+
+      - role: Water Resource Engineer
+        time: Summer 2017, 2022 - 2023
+        company: Stantec
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Zone A and Zone AE FEMA floodplain modeling using HEC-RAS two-dimensional flow model
+
+      - role: Graduate Research Assistant
+        time: 2015 - 2016
+        company: University of Kansas
+        details: |
+          Researched the design, construction, and current implementation of low-water stream crossings in rural Kansas
+
+      - role: Student Trainee Hydrologist (Pathways Program)
+        time: 2016
+        company: U.S. Geological Survey
+        details: |
+            - Performed routine measurements of water stage and discharge under given field conditions
+            - Performed installation, maintenance, and troubleshooting of sensing, recording, and communication equipment
+            - Conducted in-office hydrologic analyses on collected data
+            - Assisted in establishing vertical and horizontal datums at collection sites
+            
+publications:
+    title: PUBLICATIONS
+    
+    intro: |
+      Publications are listed in reverse chronological order.
+
+    papers:
+      - title: On connecting hydrosocial parameters to vegetation greenness differences in an evolving groundwater dependent ecosystem
+        link: "#"
+        authors: Lurtz, M. R., Morrison, R. R., and Nagler, P.
+        conference: Remote Sensing Special Issue, 2024.
+    
+      - title: Riparian Plant Evapotranspiration and Consumptive Use for Selected Areas of the Little Colorado River Watershed on the Navajo Nation
+        link: "#"
+        authors: Nagler, P., Barreto-Muñoz, A., Sall, I., Lurtz, M. R., and Didan, K.
+        conference: Remote Sensing Special Issue, 2023.
+        
+      - title: "Connecting Education Abroad with an in-class EWB International Challenge Project"
+        link: "#"
+        authors: Siller, T. J., Johnson, A., Fischer, S., and Lurtz, M. R. 
+        conference: American Society of Engineering Education, 2022.     
+
+      - title: "Connecting irrigation return flow and hydrologic data to riparian greenness using a statistical method"
+        link: "#"
+        authors: Lurtz, M. R., Morrison, R. R., and T. K. Gates.
+        conference: Colorado Water Special Issue, 2021, Colorado State University.
+
+      - title: Relationships between riparian evapotranspiration and groundwater depth along a semi‐arid irrigated river valley
+        link: "#"
+        authors: Lurtz, M. R., Morrison, R. R., Gates, T. K., Senay, G. B., Bhaskar, A. S., and Ketchum, D. G. 
+        conference: Hydrological Processes, 2020. 
+        
+      - title: Practical Design Guidelines for Replacement of Deficient Bridges with Low-Water Stream Crossings in the Rural Midwest
+        link: "#"
+        authors: McEnroe, B. M., Lurtz, M. R., Parsons, R. L., and Neupane, M.  
+        conference: Report No. FHWA-KS-16-19, 2017.
+        
+      - title: Estimating the Discharge for Ordinary High Water Levels in Kansas
+        link: "#"
+        authors: Young, C. B., McEnroe, B. M., Gamarra, R., Yuan, L., and Lurtz, M. R. 
+        conference: Report No. K-TRAN KU-13-1, 2014. 
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+        - name: Fundamentals of Engineering Exam 
+          start: Fall 2013
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: Kansas Board of Technical Professions
+          credentialid:
+          credentialurl: 
+          credentialname: 
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          
+        - name: Part 107 Remote Pilot Certificate
+          start: 2024
+          end:
+          organization: Federal Aviation Administration
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: |
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Internet of Things
+        link: "https://www.youtube.com/watch?v=c7WOwQDDCSA&feature=youtu.be"
+        tagline: "Autonomous monitoring of soil moisture, leaf temperature, and in-canopy temperature/RH at an agricultural research site in Fort Collins, CO. A DIY field-monitoring station was developed for natural and agricultural ecosystems."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
     title: OSS Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      Under Construction...
+    #contributions:
+      #- title: Tempo
+     #   link: "#"
+    #    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+   #   - title: Atom
+  #      link: "#"
+ #       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+   #   - title: Delta
+  #      link: "#"
+ #       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: R (mvtnorm, terra, stan, xts, sf, tidyverse, knitr) 
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Python
+        level: 50%
 
-      - name: Angular
-        level: 98%
+      - name: Google Earth Engine
+        level: 75%
 
-      - name: HTML5 & CSS
+      - name: Internet of Things (IoT) Sensors
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Github
+        level: 25%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Microsoft Suite
+        level: 90%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
